@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background: #007BFF;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #e9ecef;
+}
+
+.cta-button {
+  background: #28a745;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.produk {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.produk-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.produk-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 280px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.produk-item button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.harga {
+  font-size: 1.2em;
+  color: #28a745;
+  margin: 10px 0;
+}
+
+.fitur, .kontak {
+  padding: 40px 20px;
+  background-color: #e2e6ea;
+  text-align: center;
+}
+
+.wa-button {
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
